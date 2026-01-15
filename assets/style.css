@@ -155,5 +155,5 @@ margin: 8px 0 10px; /* ↓ beaucoup moins d’espace */
   text-decoration: underline;
 }
 .block ul{
-  margin-bottom: 8px;   /* ← clé */
+  margin-bottom: 2px;   /* ← clé */
 }
