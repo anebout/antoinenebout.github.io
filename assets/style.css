@@ -93,8 +93,9 @@ font-size: 48px;
 }
 
 main{
-  padding: 46px 0 80px;
+  padding: 46px 0 10px;
 }
+
 
 .quote{
   font-style: italic;
