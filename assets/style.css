@@ -171,7 +171,7 @@ p.visit{
 .block a:hover{
   text-decoration: underline;
 }
-.main{
+main{
   padding-top: 46px;
   padding-bottom: 0;
 }
