@@ -1,72 +1,20 @@
-/* Minimal academic style (econ-like) */
+/* Minimal "markdown-like" academic layout (Coutts-like) */
+
 :root{
-  --ink:#111;
-  --muted:#444;
-  --rule:#ddd;
-  --max: 820px;
+  --max: 900px;
 }
 
-html, body { margin:0; padding:0; }
 body{
-  max-width: var(--max);
-  margin: 26px auto;
+  margin: 32px auto;
   padding: 0 18px;
-  color: var(--ink);
-  background:#fff;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 17px;
-  line-height: 1.55;
-}
-
-a{ color: var(--ink); }
-a:hover{ text-decoration: underline; }
-
-h1{
-  font-size: 34px;
-  font-weight: 700;
-  margin: 0 0 6px;
-}
-
-h2{
+  max-width: var(--max);
+  line-height: 1.5;
   font-size: 18px;
-  font-weight: 400;
-  margin: 0 0 14px;
-  color: var(--muted);
 }
 
-hr{
-  border:0;
-  border-top: 1px solid var(--rule);
-  margin: 14px 0 18px;
-}
+/* Laisse les styles des titres/listes proches du navigateur */
+h1{ margin: 0 0 6px; }
+h2{ margin: 0 0 14px; font-weight: normal; }
 
-.nav{
-  list-style: disc;
-  padding-left: 22px;
-  margin: 0 0 8px;
-}
-
-.nav li{ margin: 4px 0; }
-
-main h3{
-  font-size: 18px;
-  margin: 18px 0 8px;
-}
-
-.small{ color: var(--muted); }
-
-.profile{
-  max-width: 260px;
-  height: auto;
-  margin: 10px 0 14px;
-  border: 1px solid var(--rule);
-}
-
-/* Slightly nicer lists for publications */
-.pub{
-  margin: 0;
-  padding-left: 22px;
-}
-.pub li{
-  margin: 10px 0;
-}
+ul{ margin-top: 0; }
+img{ max-width: 100%; height: auto; }
