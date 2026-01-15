@@ -154,3 +154,6 @@ margin: 8px 0 10px; /* ↓ beaucoup moins d’espace */
 .footer-links a:hover{
   text-decoration: underline;
 }
+.block ul{
+  margin-bottom: 8px;   /* ← clé */
+}
