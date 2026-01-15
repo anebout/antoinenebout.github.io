@@ -138,8 +138,8 @@ main{
 .footer-links{
   width: 100%;
   text-align: center;
-  margin: 90px 0 28px;
-  font-size: 14px;          /* ← taille */
+  margin: 40px 0 20px;   /* ↓ beaucoup moins d’espace */
+  font-size: 14px;
   letter-spacing: 0.5px;
   color: var(--muted);
 }
