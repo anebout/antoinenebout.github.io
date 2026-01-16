@@ -197,3 +197,8 @@ main{
   font-style: italic;
   font-weight: 600;
 }
+
+.block ul li {
+  line-height: 1.35;
+  margin-bottom: 0.6em;
+}
