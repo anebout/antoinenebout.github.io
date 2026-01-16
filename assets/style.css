@@ -173,7 +173,7 @@ p.visit{
 }
 main{
   padding-top: 46px;
-  padding-bottom: 0;
+  padding-bottom: 4px;
 }
 .block > :last-child{
   margin-bottom: 0 !important;
