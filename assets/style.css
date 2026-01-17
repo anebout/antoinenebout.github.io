@@ -202,3 +202,9 @@ main{
   line-height: 1.35;
   margin-bottom: 0.6em;
 }
+.tagline {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #666;
+}
